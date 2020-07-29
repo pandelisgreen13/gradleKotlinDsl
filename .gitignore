@@ -31,6 +31,7 @@ Thumbs.db
 #.idea/workspace.xml - remove # and delete .idea if it better suit your needs.
 .gradle
 build/
+/build
 reports/
 *.trace
 
@@ -39,10 +40,6 @@ reports/
 
 # Java log/traces
 *.hprof
-
-/android-adapter/src/DEMO/assets/
-#for case sensitive OS
-/android-adapter/src/demo/assets/
 
 #make case sensitive
 git config core.ignorecase false
